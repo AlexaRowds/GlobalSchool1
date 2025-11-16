@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonta/Vazir-Medium.woff') format('woff2'),
+         url('../fonta/Vazir-Medium.woff') format('woff'),
+         url('../fonta/Vazir-Medium.ttf') format('truetype'),
+         url('../fonta/Vazir-Medium.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.a-tapwar-1 {
+    color: rgb(199, 198, 198);
+
+}
+.a-tapwar-0 {
+    color: rgb(205, 60, 60);
+}
+.a-tapwar-2 {
+    font-family: 'Vazir';
+    color: rgb(199, 198, 198);
+}
+
+
+.bg-logo {
+    margin: 0 5px 3px 0;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+.gl-school {
+    font-size: 15px;
+}
+
+.nav1 {
+    font-family: 'Vazir';
+}
+
+
+
+.img-china {
+    filter: blur(5px);
+}
+
+
+.kharejkeshvar {
+   font-family: 'Lalezar';
+   font-weight: 200;
+}
+
+
+.M1 {
+    font-size: 20px;
+    margin-top: 20px;
+    color : var(--bs-primary);
+} 

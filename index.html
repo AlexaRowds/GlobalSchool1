@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Global School | Immigration Institute</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-5 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex">
+                        <a href="#" class=" me-4 a-tapwar-1"><i class="fas fa-envelope me-2 a-tapwar-0" ></i>GlobalSchook@gmail.com</a>
+                        <a href="#" class=" me-0 a-tapwar-1"><i class="fas fa-phone-alt me-2 a-tapwar-0"></i>+8613116253770</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal text-secondary"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href=""><i class="fab fa-youtube fw-normal text-secondary"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="#" class="me-2 a-tapwar-2">راهنما</a><small> / </small>
+                        <a href="#" class="mx-2 a-tapwar-2"> مشاوره</a><small> / </small>
+                        <a href="#" class="ms-2 a-tapwar-2"> تماس باما</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-5 text-secondary m-0"><img src="img/bg-logo.png" class="img-fluid bg-logo" alt="">Global<span class="gl-school">School</span></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#" class="nav-item nav-link active" style="font-family: 'Vazir';">خانه</a>
+                        <a href="#" class="nav-item nav-link" style="font-family: 'Vazir';">درباره</a>
+                        <a href="#" class="nav-item nav-link" style="font-family: 'Vazir';">سرویس</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle nav1">صفحه ها</span></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item nav1">ویژگی</a>
+                                <a href="#" class="dropdown-item nav1">کشورها</a>
+                                <a href="#" class="dropdown-item nav1">گواهینامه</a>
+                                <a href="#" class="dropdown-item nav1">آموزش</a>
+                                <a href="#" class="dropdown-item nav1">404 صفحه</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link" style="font-family: 'Vazir';">تماس بگیرید</a>
+                    </div>
+                    <button class="btn btn-primary btn-md-square border-secondary mb-3 mb-md-3 mb-lg-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    <a href="" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0" style="font-family: 'Vazir';">رزرو مشاوره</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Carousel Start -->
+        <div class="carousel-header">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/city.jpg" class="img-fluid img-china" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="text-center p-4 position-relative" style="max-width: 900px;">
+                                <h4 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s" style="font-family: 'Vazir';">مشاوره تخصصی مهاجرت و تحصیل</h4>
+                                <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp kharejkeshvar" data-wow-delay="0.3s">در خارج از کشور</h1>
+                                <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s" style="font-family: 'Vazir';">آینده‌ات را در مسیر درست بساز؛
+مهاجرت تحصیلی، اولین قدم به سوی رؤیاهایی که شایسته‌ی آنی
+                                </p>
+                                <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#" style="font-family: 'Vazir';">بیشتر بدانیم</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Chinese-Universities.jpeg" class="img-fluid img-china" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="text-center p-4" style="max-width: 900px;">
+                                <h5 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s" style="font-family: 'Vazir';">ارائه کامل‌ترین خدمات</h5>
+                                <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s" style="font-family: 'Lalezar'; font-weight: 200;">مهاجرت تحصیلی</h1>
+                                <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s" style="font-family: 'Vazir'; margin-top: 20px;">و پشتیبانی دانشجویی در چین
+                                 از پذیرش تا استقرار؛ همراه مطمئن شما در مسیر تحصیل و زندگی در چین      
+                                <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="#" style="font-family: 'Vazir'; margin-top: 30px;">بیشتر بدانیم</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary wow fadeInLeft" data-wow-delay="0.2s" aria-hidden="false"></span>
+                    <span class="visually-hidden-focusable" style="font-family: 'Vazir';">قبلی</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary wow fadeInRight" data-wow-delay="0.2s" aria-hidden="false"></span>
+                    <span class="visually-hidden-focusable" style="font-family: 'Vazir';">بعدی</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel" style="font-family: 'Vazir';">پیداکنید</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="bg-light rounded">
+                            <img src="img/about-2.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
+                            <img src="img/about-3.jpg" class="img-fluid w-100 border-bottom border-5 border-primary" style="border-top-right-radius: 300px; border-top-left-radius: 300px;" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s" dir="rtl">
+                        <h5 class="sub-title pe-3" style="font-family: 'Lalezar'; font-weight: 60;">معرفی موسسه :</h5>
+                        <h1 class="M1 display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 60;">موسسه گلوبال اسکول ثبت شده در کشور افغانستان و چین</h1>
+                        <p class="M1 mb-4" style="font-family: 'Lalezar'; font-weight: 60;">موسسه مهاجران بین المللی گلوبال اسکول با شماره ثبت ۴۴۹۱ در افغانستان</p>
+                        <p class="M1 mb-4" style="font-family: 'Lalezar'; font-weight: 60;">مؤسسه‌ای مطمئن برای آینده‌ تحصیلی‌تان</p>
+                        <p class="M1 mb-4" style="font-family: 'Lalezar'; font-weight: 60;">تخصصی‌ترین خدمات مهاجرت و پذیرش دانشجویی</p>
+                        <div class="row gy-4 align-items-center">
+                            <div class="col-12 col-sm-6 d-flex align-items-center">
+                                <i class="fas fa-map-marked-alt fa-3x text-secondary"></i>
+                                <h5 class="ms-4" style="font-family: 'Lalezar'; font-weight: 60; margin: 10px 10px 0 0; color: black;">برترین منابع مهاجرتی</h5>
+                            </div>
+                            <div class="col-12 col-sm-6 d-flex align-items-center">
+                                <i class="fas fa-passport fa-3x text-secondary"></i>
+                                <h5 class="ms-4" style="font-family: 'Lalezar'; font-weight: 60; margin: 0px 10px 0 0; color: black;">امکان دریافت ویزای بازگشت فراهم است</h5>
+                            </div>
+                            <div class="col-4 col-md-3">
+                                <div class="bg-light text-center rounded p-3">
+                                    <div class="mb-2">
+                                        <i class="fas fa-ticket-alt fa-4x text-primary"></i>
+                                    </div>
+                                    <h1 class="display-5 fw-bold mb-2" style="font-family: 'Lalezar'; font-weight: 60;">3</h1>
+                                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 60; color: var(--bs-primary);">سال تجربه</p>
+                                </div>
+                            </div>
+                            <div class="col-8 col-md-9">
+                                <div class="mb-5">
+                                    <p class="text-primary h6 mb-3" style="font-family: 'Lalezar'; font-weight: 60;"><i class="fa fa-check-circle text-secondary me-2"></i> ارائه ۱۰۰٪ خدمات واقعی و معتبر </p>
+                                    <p class="text-primary h6 mb-3" style="font-family: 'Lalezar'; font-weight: 60;"><i class="fa fa-check-circle text-secondary me-2"></i> اجرای سریع و قابل‌اعتماد</p>
+                                    <p class="text-primary h6 mb-3" style="font-family: 'Lalezar'; font-weight: 60;"><i class="fa fa-check-circle text-secondary me-2"></i> مشاوره دقیق و کارشناسی‌شده </p>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                                        <a href="" class="position-relative wow tada" data-wow-delay=".9s">
+                                            <i class="fa fa-phone-alt text-primary fa-3x"></i>
+                                            <div class="position-absolute" style="top: 0; left: 25px;">
+                                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <span class="text-primary" style="font-family: 'Lalezar'; font-weight: 60; margin: 10px 10px 0 0;">سوالاتتان را از ما بپرسید </span>
+                                        <span class="text-secondary fw-bold fs-5" style="letter-spacing: 2px;">8613116253770+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Counter Facts Start -->
+        <div class="container-fluid counter-facts py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-passport"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3 style="font-family: 'Lalezar'; font-weight: 60;">دسته بندی ویزاها</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">11</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3 style="font-family: 'Lalezar'; font-weight: 60;">افراد تیم</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">20</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-user-check"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3 style="font-family: 'Lalezar'; font-weight: 60;">ویزاهای درحال انجام</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">100</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="counter">
+                            <div class="counter-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="counter-content">
+                                <h3 style="font-family: 'Lalezar'; font-weight: 60;">درصد موفقیت</h3>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value" data-toggle="counter-up">98</span>
+                                    <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter Facts End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid service overflow-hidden pt-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3" style="font-family: 'Lalezar'; font-weight: 60;">دسته بندی ویزاها</h5>
+                    </div>
+                    <h1 class="display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 60; margin-top: 30px; color: rgba(255, 0, 0, 0.766);">مهاجرت شما را با موفقیت ممکن می‌کنیم</h1>
+                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 60; color: var(--bs-primary);">در مؤسسه ما، تمامی دسته‌بندی‌های ویزا شامل ویزای تحصیلی، کاری، سرمایه‌گذاری، توریستی و بازگشت به کشور بررسی و ارائه می‌شوند؛ هر مسیر مهاجرتی با دقت و شفافیت کامل توضیح داده شده است.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40; color: var(--bs-primary);">ویزا کاری</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#" style="font-family: 'Lalezar'; font-weight: 40; color: var(--bs-primary);">اطلاعات بیشتر</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3" style="font-family: 'Lalezar'; font-weight: 40;">ویزای کاری</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4" style="font-family: 'Lalezar'; font-weight: 40;">با ویزای کاری، فرصت‌های شغلی بین‌المللی را کشف کرده و مسیر حرفه‌ای خود را در خارج از کشور هموار کنید.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">ویزای تجاری</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3">ویزای تجاری</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4" style="font-family: 'Lalezar'; font-weight: 40;">ویزای تجاری به افراد امکان می‌دهد برای اهداف کاری مانند جلسات تجاری، مذاکرات، نمایشگاه‌ها و بازدیدهای کوتاه‌مدت وارد کشور مقصد شوند.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">ویزای دیپلماتیک</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3" style="font-family: 'Lalezar'; font-weight: 40;">ویزای دیپلماتیک</h4></a>
+                                        <div class="px-4" style="font-family: 'Lalezar'; font-weight: 40;">ویزای دیپلماتیک برای مقامات رسمی و نمایندگان دولت‌ها صادر می‌شود و امکان سفر به کشور مقصد به منظور انجام مأموریت‌های دیپلماتیک و رسمی را فراهم می‌کند.</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">ویزای دانشجویی</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3" style="font-family: 'Lalezar'; font-weight: 40;">ویزای دانشجویی</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4" style="font-family: 'Lalezar'; font-weight: 40;">ویزای دانشجویی به افرادی صادر می‌شود که قصد ادامه تحصیل در دانشگاه‌ها، کالج‌ها یا مؤسسات آموزشی خارج از کشور را دارند</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">ویزای اقامت</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3" style="font-family: 'Lalezar'; font-weight: 40;">ویزی اقامت</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4" style="font-family: 'Lalezar'; font-weight: 40;">ویزای اقامت به افراد امکان می‌دهد به طور قانونی در یک کشور زندگی کنند. این ویزا معمولاً برای کار، سرمایه‌گذاری، پیوستن به خانواده یا اهداف بلندمدت دیگر صادر می‌شود</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item">
+                            <div class="service-inner">
+                                <div class="service-img">
+                                    <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                </div>
+                                <div class="service-title">
+                                    <div class="service-title-name">
+                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                            <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">ویزای توریستی</a>
+                                        </div>
+                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                    </div>
+                                    <div class="service-content pb-4">
+                                        <a href="#"><h4 class="text-white mb-4 py-3" style="font-family: 'Lalezar'; font-weight: 40;">ویزای توریستی</h4></a>
+                                        <div class="px-4">
+                                            <p class="mb-4" style="font-family: 'Lalezar'; font-weight: 40;">ویزای توریستی به افراد امکان می‌دهد برای گردش، بازدید از جاذبه‌های گردشگری یا دیدار با دوستان و خانواده به یک کشور سفر کنند</p>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات بیشتر</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+
+        <!-- Features Start -->
+        <div class="container-fluid features overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3" style="font-family: 'Lalezar'; font-weight: 40;">چرا ما ؟</h5>
+                    </div>
+                    <h1 class="display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 40; margin: 30px 0 0;">ارائه خدمات سفارشی مطابق نیازهای مشتریان ما</h1>
+                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40; color: black;">ما خدمات خود را بر اساس نیازها و خواسته‌های هر مشتری طراحی می‌کنیم تا تجربه‌ای منحصر به فرد و متناسب با اهداف شخصی یا کسب‌وکار او ارائه شود</p>
+                </div>
+                <div class="row g-4 justify-content-center text-center">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-dollar-sign fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3" style="font-family: 'Lalezar'; font-weight: 40; color: black;">مقرون به صرفه</h5>
+                                <p class="mb-3" style="font-family: 'Lalezar'; font-weight: 40;">ما خدمات و محصولات خود را به گونه‌ای ارائه می‌کنیم که حداکثر کیفیت را با کمترین هزینه ممکن در اختیار مشتریان قرار دهد.</p>
+                                <a class="btn btn-secondary rounded-pill" href="#" style="font-family: 'Lalezar'; font-weight: 40;">بیشتر بخوانید<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fab fa-cc-visa fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3" style="font-family: 'Lalezar'; font-weight: 40; color: black;">خدمات ویزا</h5>
+                                <p class="mb-3" style="font-family: 'Lalezar'; font-weight: 40;">ما شما را در تمامی مراحل اخذ ویزا همراهی می‌کنیم تا تجربه‌ای سریع، آسان و بدون دغدغه داشته باشید</p>
+                                <a class="btn btn-secondary rounded-pill" href="#" style="font-family: 'Lalezar'; font-weight: 40;">بیشتر بخوانید<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-atlas fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3" style="font-family: 'Lalezar'; font-weight: 40; color: black;">پردازش سریع</h5>
+                                <p class="mb-3" style="font-family: 'Lalezar'; font-weight: 40;">درخواست شما با سرعت بالا بررسی می‌شود تا در کمترین زمان ممکن نتیجه دریافت کنید.</p>
+                                <a class="btn btn-secondary rounded-pill" href="#" style="font-family: 'Lalezar'; font-weight: 40;">بیشتر بخوانید<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="feature-item text-center p-4">
+                            <div class="feature-icon p-3 mb-4">
+                                <i class="fas fa-users fa-4x text-primary"></i>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-3" style="font-family: 'Lalezar'; font-weight: 40; color: black;" >مصاحبه‌های مستقیم</h5>
+                                <p class="mb-3" style="font-family: 'Lalezar'; font-weight: 40;">ما شما را برای مصاحبه‌های مستقیم آماده می‌کنیم تا بدون واسطه و سریع‌تر به نتیجه برسید</p>
+                                <a class="btn btn-secondary rounded-pill" href="#" style="font-family: 'Lalezar'; font-weight: 40;">بیشتر بخوانید<i class="fas fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#" style="font-family: 'Lalezar'; font-weight: 40;">... ویژگی های بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+
+
+        <!-- Countries We Offer Start -->
+        <div class="container-fluid country overflow-hidden py-5">
+            <div class="container">
+                <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3" style="font-family: 'Lalezar'; font-weight: 40;">کشورهای مورد پوشش ما</h5>
+                    </div>
+                    <h1 class="display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 40; margin-top: 30px;">خدمات مهاجرت و ویزا برای کشورهای زیر</h1>
+                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">ما خدمات مهاجرت و ویزا را برای کشورهای منتخب ارائه می‌کنیم تا شما بتوانید به راحتی سفر، تحصیل یا کار در خارج از کشور را برنامه‌ریزی کنی</p>
+                </div>
+                <div class="row g-4 text-center">
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/china1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/flag-round-250.png" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name"> 
+                                <a href="#" class="text-white fs-4" style="font-family: 'Lalezar'; font-weight: 40;">چین</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/india.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4" style="font-family: 'Lalezar'; font-weight: 40;">هند</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/usa.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4" style="font-family: 'Lalezar'; font-weight: 40;">آمریکا</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="country-item">
+                            <div class="rounded overflow-hidden">
+                                <img src="img/country-4.jpg" class="img-fluid w-100 rounded" alt="Image">
+                            </div>
+                            <div class="country-flag">
+                                <img src="img/italy.jpg" class="img-fluid rounded-circle" alt="Image">
+                            </div>
+                            <div class="country-name">
+                                <a href="#" class="text-white fs-4" style="font-family: 'Lalezar'; font-weight: 40;">ایتالیا</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#" style="font-family: 'Lalezar'; font-weight: 40;">کشورهای بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Countries We Offer End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial overflow-hidden pb-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3" style="font-family: 'Lalezar'; font-weight: 40;">مشتریان ما</h5>
+                    </div>
+                    <h1 class="display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 40; margin-top: 30px;">نظرات مشتریان ما :</h1>
+                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">بازخورد و تجربه‌های مشتریان ما نشان‌دهنده کیفیت خدمات و تعهد ما به ارائه بهترین پشتیبانی در زمینه ویزا و مهاجرت است.</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow zoomInDown" data-wow-delay="0.2s">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0" style="font-family: 'Lalezar'; font-weight: 40;">تجربه من با تیم شما فوق‌العاده بود. فرآیند اخذ ویزا به صورت کاملاً سازمان‌یافته و بدون هیچ‌گونه مشکل پیش رفت. همه مراحل به دقت توضیح داده شد و پشتیبانی شما در تمام طول مسیر حرفه‌ای و صبورانه بود. من واقعا احساس کردم که تیم شما به نیازها و دغدغه‌های من اهمیت می‌دهد و تمام تلاش خود را برای تسهیل فرآیند انجام داد
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" alt="img">
+                            </div>
+                            <div class="my-auto">
+                                <h5 style="font-family: 'Lalezar'; font-weight: 40;">لیلا رضایی</h5>
+                                <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">دانشجو</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0" style="font-family: 'Lalezar'; font-weight: 40;">خدمات شما تجربه‌ای راحت و بدون استرس برای من فراهم کرد. از ابتدا تا انتها، تیم شما با دقت و حرفه‌ای‌گری مرا راهنمایی کرد و همه مدارک و مراحل را به بهترین شکل مدیریت نمود. بدون شک، مشاوره و پشتیبانی شما باعث شد که فرآیند مهاجرت و تحصیل در خارج از کشور بسیار ساده و قابل کنترل شود
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" alt="img">
+                            </div>
+                            <div class="my-auto">
+                                <h5 style="font-family: 'Lalezar'; font-weight: 40;">زهرا عبادی</h5>
+                                <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">دانشجو</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0" style="font-family: 'Lalezar'; font-weight: 40;">من از خدمات ویزا و مهاجرت شما بسیار راضی هستم. تیم شما با ارائه راهنمایی‌های دقیق و پاسخگویی سریع، هر مرحله از فرآیند را شفاف و آسان کرد. همچنین، رویکرد شما به ارائه خدمات مقرون به صرفه و با کیفیت، باعث شد که من با خیال راحت به برنامه‌های خود برای سفر و مهاجرت ادامه دهم و هیچ نگرانی نداشته باشم
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" alt="img">
+                            </div>
+                            <div class="my-auto">
+                                <h5 style="font-family: 'Lalezar'; font-weight: 40;">امیررضا افشار</h5>
+                                <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">دانشجو</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+        <!-- Training Start -->
+        <div class="container-fluid training overflow-hidden bg-light py-5">
+            <div class="container py-5">
+                <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3" style="font-family: 'Lalezar'; font-weight: 40;">دوره‌های آموزشی ما را بررسی کنید</h5>
+                    </div>
+                    <h1 class="display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 40; margin-top: 30px;">بهترین خدمات آموزشی و مشاوره‌ای را با گلوبال اسکول دریافت کنید</h1>
+                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">با گلوبال اسکول به دوره‌های آموزشی و خدمات مشاوره‌ای حرفه‌ای دسترسی پیدا کنید تا مهارت‌های خود را تقویت کرده و بهترین نتایج را کسب کنید</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">آیلتس</a>
+                                    <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;"></a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white" style="font-family: 'Lalezar'; font-weight: 40;">گرفتن آیلتس</h4></a>
+                                <p class="text-white-50" style="font-family: 'Lalezar'; font-weight: 40;">راهی آسان برای گرفتن مدرک زبان آیلتس باما</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#" style="font-family: 'Lalezar'; font-weight: 40;"> بیشتر بدانید <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">تافل</a>
+                                    <a href="#" class="h4 text-white mb-0"></a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white" style="font-family: 'Lalezar'; font-weight: 40;">گرفتن تافل</h4></a>
+                                <p class="text-white-50" style="font-family: 'Lalezar'; font-weight: 40;">راهی آسان برای گرفتن مدرک زبان تافل باما</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#" style="font-family: 'Lalezar'; font-weight: 40;">بیشتر بدانید<i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0">PTE</a>
+                                    <a href="#" class="h4 text-white mb-0"></a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white" style="font-family: 'Lalezar'; font-weight: 40;">PTE گرفتن</h4></a>
+                                <p class="text-white-50" style="font-family: 'Lalezar'; font-weight: 40;">راهی آسان برای گرفتن مدرک زبان تافل باما</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#">Read More <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="training-item">
+                            <div class="training-inner">
+                                <img src="img/training-4.jpg" class="img-fluid w-100 rounded" alt="Image">
+                                <div class="training-title-name">
+                                    <a href="#" class="h4 text-white mb-0">OET</a>
+                                    <a href="#" class="h4 text-white mb-0"></a>
+                                </div>
+                            </div>
+                            <div class="training-content bg-secondary rounded-bottom p-4">
+                                <a href="#"><h4 class="text-white" style="font-family: 'Lalezar'; font-weight: 40;">OET گرفتن</h4></a>
+                                <p class="text-white-50" style="font-family: 'Lalezar'; font-weight: 40;">راهی آسان برای گرفتن مدرک زبان تافل باما</p>
+                                <a class="btn btn-secondary rounded-pill text-white p-0" href="#" style="font-family: 'Lalezar'; font-weight: 40;">بیشتر بدانید<i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#" style="font-family: 'Lalezar'; font-weight: 40;">جزییات بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Training End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact overflow-hidden pb-5">
+            <div class="container py-5">
+                <div class="office pt-5">
+                    <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary px-3" style="font-family: 'Lalezar'; font-weight: 40;">دفترهای ما</h5>
+                        </div>
+                        <h1 class="display-5 mb-4" style="font-family: 'Lalezar'; font-weight: 40; margin-top: 30px;">دفاتر ما را کشف کنید</h1>
+                        <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">از دفاتر ما در سراسر جهان دیدن کنید و در هر نقطه، به خدمات حرفه‌ای و پشتیبانی سریع دسترسی داشته باشید.</p>
+                    </div>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/afg.jpg" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2" style="font-family: 'Lalezar'; font-weight: 40;">افغانستان</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+93795003496</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">globalschoolinfo@gmail.com</a>
+                                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">آدرس : کابل، کوته سنگی، گولایی دواخانه، مارکت تجارتی کابل، منزل سوم، دکان نمبر  (Global School)
+</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="office-item p-4">
+                                <div class="office-img mb-4">
+                                    <img src="img/Chinese-Universities.jpeg" class="img-fluid w-100 rounded" alt="">
+                                </div>
+                                <div class="office-content d-flex flex-column">
+                                    <h4 class="mb-2" style="font-family: 'Lalezar'; font-weight: 40;">چین</h4>
+                                    <a href="#" class="text-secondary fs-5 mb-2">+8613116253770</a>
+                                    <a href="#" class="text-muted fs-5 mb-2">globalschoolinfo@gmail.com</a>
+                                    <p class="mb-0" style="font-family: 'Lalezar'; font-weight: 40;">چین، شانگهای، خیابان یشمآبیپلاک۴۵۲۱، مجتمع گلهای طلای ییلوک منطقه بادشرقی، روبرو اپل استور شرقی جنب سوپرمارکت کد پستی 6578765</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4" style="font-family: 'Lalezar'; font-weight: 40;">اطلاعات تماس</h4>
+                            <a href="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fa fa-map-marker-alt me-2"></i>کابل، کوته سنگی، گولایی دواخانه، مارکت تجارتی</a>
+                            <a href=""><i class="fas fa-envelope me-2"></i> globalschoolinfo@gmail.com</a>
+                            <a href=""><i class="fas fa-phone me-2"></i>+93779755088</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i>+93795003496</a>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
+                                <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4" style="font-family: 'Lalezar'; font-weight: 40;">ساعت کاری</h4>
+                            <div class="mb-3">
+                                <h6 class="mb-0" style="font-family: 'Lalezar'; font-weight: 40; color: azure;">شنبه تا جمعه : </h6>
+                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="mb-0" style="font-family: 'Lalezar'; font-weight: 40; color: azure;">سه شنبه</h6>
+                                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="mb-0" style="font-family: 'Lalezar'; font-weight: 40; color: azure;">تعطیلات</h6>
+                                <p class="text-white mb-0" style="font-family: 'Lalezar'; font-weight: 40;">در زمان تعطیلات بسته می باشد</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4" style="font-family: 'Lalezar'; font-weight: 40;">خدمات</h4>
+                            <a href="#" class="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-angle-right me-2"></i> کسب‌وکار</a>
+                            <a href="#" class="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-angle-right me-2"></i> ارزیابی</a>
+                            <a href="#" class="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-angle-right me-2"></i> مهاجرت</a>
+                            <a href="#" class="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-angle-right me-2"></i> تحصیل</a>
+                            <a href="#" class="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-angle-right me-2"></i> مشاوره</a>
+                            <a href="#" class="" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-angle-right me-2"></i> کار / حرفه</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-secondary mb-4" style="font-family: 'Lalezar'; font-weight: 40;">خبرنامه</h4>
+                            <p class="text-white mb-3" style="font-family: 'Lalezar'; font-weight: 40;">با عضویت در خبرنامه ما، جدیدترین اطلاعات، تخفیف‌ها، اخبار و نکات کاربردی را مستقیماً در ایمیل خود دریافت کنید</p>
+                            <div class="position-relative mx-auto rounded-pill">
+                                <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" style="font-family: 'Lalezar'; font-weight: 40;" type="text" placeholder="ایمیل خود را وارد کنید">
+                                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2" style="font-family: 'Lalezar'; font-weight: 40;">ارسال</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white" style="font-family: 'Lalezar'; font-weight: 40;"><a href="#" class="border-bottom text-white" style="font-family: 'Lalezar'; font-weight: 40;"><i class="fas fa-copyright text-light me-2"></i>GlobalSchool </a> تمامی حقوق محفوظ است</span>
+                    </div>
+                    <div dir="rtl" class="col-md-6 text-center text-md-end text-white" style="font-family: 'Lalezar'; font-weight: 40;">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        طراحی و توسعه توسط <a class="border-bottom text-white" href="#">امیررضا افشار</a><a class="border-bottom text-white" href="https://themewagon.com"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
